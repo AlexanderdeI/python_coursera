@@ -1,0 +1,9 @@
+{
+  "python": "Guido van Rossum",
+  "C": "Dennis Ritchie, Kenneth Thompson",
+  "C#": "Anders Hejlsberg",
+  "C++": "Bjarne Stroustrup",
+  "Java": "Sun Microsystems, Oracle",
+  "JavaScript": "Brendan Eich",
+  "PHP": "Rasmus Lerdorf"
+}
