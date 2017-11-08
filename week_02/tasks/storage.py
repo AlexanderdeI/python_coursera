@@ -6,7 +6,8 @@ json_file = open("storage.json")
 storage = json.load(json_file)
 
 with open(storage_path, 'w') as f:
-    pass
+    for key, value in storage.items():
+        f.write("{}: {},\n".format(key, value))
 
 parser = argparse.ArgumentParser()
 parser.add_argument("key")
